@@ -35,5 +35,13 @@ return (
                     onCardLeftScreen={() => outOfFrame (person.name)}
                 >
                     <div style={{ backgroundImage: `url(${person.imgUrl})`}} className=
-                        <h3>{per</h3>
-                    </DatingCard>
+                        <h3>{person.name}</h3>
+                    </div>
+                </DatingCard>
+            ))}
+        </div>
+      </div>
+    )
+}
+
+export default DatingCards
